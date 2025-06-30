@@ -1,0 +1,7 @@
+# Visual Studio cache/options derectory
+.vs/
+
+# Visual Studio files
+*.[Oo]bj
+[Oo]bj/
+[Bb]in/
