@@ -1,0 +1,28 @@
+# Ignore build output
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Ignore .NET user files
+*.user
+*.suo
+
+# Ignore docker-compose folder
+docker-compose/
+
+# Ignore Git
+.git/
+.gitignore
+
+# Ignore VS Code and Rider settings
+.vscode/
+.idea/
+
+# Ignore test results
+TestResults/
+*.coverage
+*.log
+
+# Ignore Docker artifacts
+*.tar

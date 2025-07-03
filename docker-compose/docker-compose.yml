@@ -1,0 +1,6 @@
+services:
+  pipelinevalidation:
+    image: ${DOCKER_REGISTRY}pipelinevalidation:${IMAGE_TAG}
+    build:
+      context: ../
+      dockerfile: src/PipelineValidation/Dockerfile

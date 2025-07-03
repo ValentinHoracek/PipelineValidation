@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PipelineValidation": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
