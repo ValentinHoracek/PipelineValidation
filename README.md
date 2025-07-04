@@ -2,6 +2,7 @@
 
 A minimal C# console application project to validate CI/CD pipelines.
 
+```mermaid
 flowchart TD
     A[Code Push to Git Repo] --> B[Jenkins Pipeline Triggered]
 
@@ -24,3 +25,4 @@ flowchart TD
       M --> N[Post-Deployment Tests & Health Checks]
       N --> O[Notify Team / Trigger Downstream Pipelines]
     end
+```
