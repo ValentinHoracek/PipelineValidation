@@ -7,9 +7,9 @@ flowchart TD
     A[Code Push to Git Repo] --> B[Jenkins Pipeline Triggered]
 
     B --> C[Build Docker Image]
-    C --> D[Run Unit Tests (xUnit)]
-    D --> E[Run Integration Tests (docker-compose)]
-    E --> F[Static Code Analysis (SonarQube)]
+    C --> D[Run Unit Tests - xUnit]
+    D --> E[Run Integration Tests - docker-compose]
+    E --> F[Static Code Analysis - SonarQube]
 
     F --> G[Publish Docker Image to Harbor]
     F --> H[Publish NuGet Packages to Nexus]
